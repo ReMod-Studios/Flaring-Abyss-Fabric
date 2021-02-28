@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "flabyss",
+  "version": "${version}",
+  "name": "Flaring Abyss",
+  "description": "A Project which aims to expand the Nether further!",
+  "authors": [
+    "LePichu"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "Apache-2.0",
+  "icon": "assets/flabyss/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.remodstudios.flabyss.FlaringAbyssMain"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "flabyss.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.2",
+    "fabric": "*"
+  }
+}
