@@ -17,6 +17,7 @@ public class FlaringAbyssMain implements ModInitializer {
     public void onInitialize() {
         log(Level.INFO, "Initializing");
         //TODO: Initializer
+
     }
 
     public static void log(Level level, String message){
