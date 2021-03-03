@@ -2,15 +2,15 @@ package com.remodstudios.flabyss.blocks_package;
 
 import com.remodstudios.flabyss.FlaringAbyssMain;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import static net.minecraft.block.Blocks.*;
 
 public class BlocksRegistery {
-
-
+    // "cube-things go here" - LePichu
+    public static final Block WILTSLATE = register(new Block(FabricBlockSettings.copyOf(Blocks.STONE)),"wiltslate");
+    public static final Block WILTSLATE_BRICKS = register(new Block(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS)), "wiltslate_bricks.json");
 
     // Methods
     private static Block register(Block block, String name) {
