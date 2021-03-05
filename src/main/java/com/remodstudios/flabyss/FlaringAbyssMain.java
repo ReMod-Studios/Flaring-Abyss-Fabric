@@ -1,5 +1,7 @@
 package com.remodstudios.flabyss;
 
+import com.remodstudios.flabyss.blocks_package.BlocksRegistery;
+import com.remodstudios.flabyss.items_package.ItemRegistery;
 import net.fabricmc.api.ModInitializer;
 
 import org.apache.logging.log4j.Level;
@@ -17,7 +19,8 @@ public class FlaringAbyssMain implements ModInitializer {
     public void onInitialize() {
         log(Level.INFO, "Initializing");
         //TODO: Initializer
-
+        ItemRegistery.init();
+        BlocksRegistery.init();
     }
 
     public static void log(Level level, String message){
