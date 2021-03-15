@@ -16,7 +16,9 @@
     "main": [
       "com.remodstudios.flabyss.FlaringAbyssMain"
     ],
-    "client": [],
+    "client": [
+      "com.remodstudios.flabyss.client_package.FlabyssClient"
+    ],
     "server": []
   },
   "mixins": [

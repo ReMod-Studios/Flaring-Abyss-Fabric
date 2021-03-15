@@ -2,6 +2,12 @@
   "itemGroup.flabyss.group": "Flaring Abyss",
 
   "item.flabyss.stygian_iron_sword": "Stygian Iron Sword",
+  "item.flabyss.stygian_iron_axe": "Stygian Iron Axe",
+  "item.flabyys.stygian_iron_pickaxe": "Stygian Iron Pickaxe",
+  "item.flabyss.stygian_iron_shovel": "Stygian Iron Shovel",
+  "item.flabyss.stygian_iron_hoe": "Stygian Iron Hoe",
+
+
   "block.flabyss.wiltslate": "Wiltslate",
   "block.flabyss.wiltslate_bricks": "Wiltslate Bricks"
 }
