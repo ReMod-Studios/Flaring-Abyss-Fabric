@@ -16,6 +16,7 @@ public class ItemRegistery extends ItemRegistry {
     private static final ItemGroup GROUP = FabricItemGroupBuilder.build(new Identifier(FlaringAbyssMain.MOD_ID,"group"), () -> new ItemStack(BlocksRegistery.WILTSLATE));
 
     // "Items go here" - LePichu
+    public static final Item SCYTHE = register(new SwordItem(ToolMaterials.NETHERITE, 8, -2.4F, new Item.Settings().group(GROUP).maxCount(1)), "scythe");
     public static final Item STYGIAN_IRON_SWORD = register(new StygianSword(ToolMaterials.IRON, 4, -2.4F, new Item.Settings().group(GROUP).maxCount(1)), "stygian_iron_sword");
     public static final Item STYGIAN_IRON_AXE = register(new StygianAxe(ToolMaterials.IRON, 4, -2.4F, new Item.Settings().group(GROUP).maxCount(1)), "stygian_iron_axe");
     public static final Item STYGIAN_IRON_PICKAXE = register(new StygianPickaxe(ToolMaterials.IRON, 4, -2.4F, new Item.Settings().group(GROUP).maxCount(1)), "stygian_iron_pickaxe");

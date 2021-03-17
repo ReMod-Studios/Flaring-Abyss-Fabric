@@ -4,6 +4,7 @@ import com.remodstudios.flabyss.blocks_package.BlocksRegistery;
 import com.remodstudios.flabyss.items_package.ItemRegistery;
 import com.swordglowsblue.artifice.api.Artifice;
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.util.Identifier;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -17,11 +18,15 @@ public class FlaringAbyssMain implements ModInitializer {
     public static final String MOD_ID = "flabyss";
     public static final String MOD_NAME = "Flaring Abyss";
 
+    public static Identifier id(String path) {
+        return new Identifier(MOD_ID, path);
+    }
+
     @Override
     public void onInitialize() {
         log(Level.INFO, "Initializing");
         //TODO: Initializer
-        Artifice.registerDataPack(MOD_ID("artifice_rp"), pack -> {
+        Artifice.registerDataPack(id("artifice_rp"), pack -> {
             ItemRegistery.INSTANCE.generateData(pack);
             BlocksRegistery.INSTANCE.generateData(pack);
 

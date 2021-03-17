@@ -11,7 +11,7 @@ import java.io.IOException;
 public class FlabyssClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-        Artifice.registerAssetPack(FlaringAbyssMain.MOD_ID("artifice_rp"), pack -> {
+        Artifice.registerAssetPack(FlaringAbyssMain.id("artifice_rp"), pack -> {
             ItemRegistery.INSTANCE.generateAssets(pack);
             BlocksRegistery.INSTANCE.generateAssets(pack);
 
