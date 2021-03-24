@@ -2,7 +2,9 @@
   "required": true,
   "package": "com.remodstudios.flabyss.mixin",
   "compatibilityLevel": "JAVA_8",
-  "mixins": [],
+  "mixins": [
+    "CrystalMethDosageCounterMixin"
+  ],
   "client": [],
   "server": [],
   "injectors": {
