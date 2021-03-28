@@ -3,7 +3,7 @@
   "package": "com.remodstudios.flabyss.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "CrystalMethDosageCounterMixin"
+
   ],
   "client": [],
   "server": [],
