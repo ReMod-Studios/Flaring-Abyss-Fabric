@@ -27,7 +27,7 @@ public class BlocksRegistery extends BlockRegistry {
     public final Block CHISELED_ARIDSTONE_BRICKS = add("chiseled_aridstone_bricks", new Block(FabricBlockSettings.of(ModMaterials.ARIDSTONE_MATERIAL).hardness(2.5F).breakByTool(FabricToolTags.PICKAXES).requiresTool().sounds(BlockSoundGroup.GILDED_BLACKSTONE)));
 
     public final Block RIMENIUM = add("rimenium", new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE).of(ModMaterials.RIMENIUM_MATERIAL)));
-    public final Block SMOOTH_RIMENIUM = add("smooth_rimenium", new Block(FabricBlockSettings.copyOf(RIMENIUM)));
+    public final Block POLISHED_RIMENIUM = add("polished_rimenium", new Block(FabricBlockSettings.copyOf(RIMENIUM)));
 
     // "vanilla-ish expansions" - LePichu
     public final Block BASALT_IRON_ORE = add("basalt_iron_ore", new Block(FabricBlockSettings.copyOf(Blocks.BASALT)));
