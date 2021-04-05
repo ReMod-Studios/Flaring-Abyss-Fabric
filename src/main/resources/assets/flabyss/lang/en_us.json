@@ -7,7 +7,22 @@
   "item.flabyss.stygian_iron_shovel": "Stygian Iron Shovel",
   "item.flabyss.stygian_iron_hoe": "Stygian Iron Hoe",
 
-
   "block.flabyss.wiltslate": "Wiltslate",
-  "block.flabyss.wiltslate_bricks": "Wiltslate Bricks"
+  "block.flabyss.wiltslate_bricks": "Wiltslate Bricks",
+  "block.flabyss:cracked_wiltslate_bricks": "Cracked Wiltslate,",
+  "block.flabyss:chiseled_wiltslate_bricks": "Chiseled Wiltslate Bricks",
+
+  "block.flabyss.aridstone": "Aridstone",
+  "block.flabyss.aridstone_bricks": "Aridstone Bricks",
+  "block.flabyss:cracked_aridstone_bricks": "Cracked Aridstone,",
+  "block.flabyss:chiseled_aridstone_bricks": "Chiseled Aridstone Bricks",
+
+  "block.flabyss:rimenium": "Rimenium",
+  "block.flabyss:polished_rimenium": "Polished Rimenium",
+
+  "block.flabyss:soul_diamond_ore":  "Soul Diamond Ore",
+  "block.flabyss:soul_gas":  "Soul Gas",
+  "block.flabyss:soul_sandstone":  "Soul Sandstone",
+  "block.flabyss:cut_soul_sandstone":  "Cut Soul Sandstone",
+  "block.flabyss:chiseled_soul_sandstone":  "Chiseled Soul Sandstone"
 }

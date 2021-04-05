@@ -25,6 +25,9 @@ public class FlaringAbyssMain implements ModInitializer {
     @Override
     public void onInitialize() {
         log(Level.INFO, "Initializing");
+        ItemRegistery.INSTANCE.init();
+        BlocksRegistery.INSTANCE.init();
+
         //TODO: Initializer
         Artifice.registerDataPack(id("artifice_rp"), pack -> {
             ItemRegistery.INSTANCE.generateData(pack);
