@@ -1,6 +1,6 @@
 {
-  "parent": "block/cube_all",
+  "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "flabyss:blocks/cracked_wiltslate_bricks"
+    "all": "flabyss:block/cracked_wiltslate_bricks"
   }
 }

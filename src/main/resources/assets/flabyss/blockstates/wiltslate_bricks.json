@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "flabyss:block/wiltslate_bricks" }
+    "": {
+      "model": "flabyss:block/wiltslate_bricks"
+    }
   }
 }

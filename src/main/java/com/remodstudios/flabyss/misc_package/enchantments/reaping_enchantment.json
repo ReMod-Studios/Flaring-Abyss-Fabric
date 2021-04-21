@@ -1,0 +1,61 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:enchantment": {
+    "description": {
+      "identifier": "flabyss:reaping",
+      "rarity": "<TYPE:ITEM_RARITY>",
+      "enchantment_slots": [
+        "minecraft:trident",
+        "flabyss:scythe",
+        "slot.enchantment.sword"
+      ]
+    },
+    "components": {
+      "minecraft:get_min_level": "1",
+      "minecraft:get_max_level": "5",
+      "minecraft:ticking": {
+        "condition": "<TYPE:MOLANG>",
+        "event": "test_ticking",
+        "interval": [1,2],
+        "target": "<TYPE:TARGET>"
+      },
+      "minecraft:random_ticking": {
+        "condition": "<TYPE:MOLANG>",
+        "event": "test_ticking_random",
+        "target": "<TYPE:TARGET>"
+      },
+      "minecraft:is_cursed": false,
+      "minecraft:is_treasure": true,
+      "minecraft:on_use": {
+        "event": "on_use"
+      },
+      "minecraft:on_damage_received": {
+        "event": "on_damage_received"
+      }
+    },
+    "events": {
+      "test_ticking": {
+        "run_command": [
+          "function Test"
+        ]
+      },
+      "test_ticking_random": {
+        "add_mob_effect": [
+          {
+            "effect": "instant_health"
+          }
+        ]
+      },
+      "on_use": {
+        "run_command": [
+          "say Tater"
+        ]
+      },
+      "on_damage_received": {
+        "run_command": [
+          "say OwO It Hurt"
+        ]
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "flabyss:block/chiseled_wiltslate_bricks"
+    "all": "flabyss:block/aridstone"
   }
 }
